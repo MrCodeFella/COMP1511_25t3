@@ -1,0 +1,27 @@
+int days
+print("How many days till your assignment is due?")
+scanf(days)
+
+if (10 < days) {
+    print("are you up to date with lectures and labs")
+    scan(answer)
+    if (answer == yes) {
+        print("work on assignment)
+    } else {
+        print("catch up on them!")
+    }
+} else if (7 <= days && days <= 10) {
+    print("have you started assignement?")
+    if (answer == yes) {
+        print("dont forget to check your style")
+    } else {
+        print("You should start! ask for help if you need.")
+    }
+} else {
+    print("are you on track to finish")
+    if (answer == yes) {
+        print("keep going!")
+    } else {
+        print("attend help sessions and ask for help!")
+    }
+}
